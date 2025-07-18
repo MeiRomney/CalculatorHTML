@@ -1,0 +1,77 @@
+body {
+    background-color: #585757;
+}
+
+.card {
+    width: 300px;
+    background-color: #212121;
+    margin: 10vh auto 10vh;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    padding-top: 0;
+    border-radius: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.card input {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.keypad button {
+    color: #fff;
+    background-color: #000;
+    border: none;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 30%;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.1s ease, height 0.1s ease;
+}
+
+.clicked {
+    transform: scale(0.9);
+}
+
+.keypad button:hover {
+    background-color: #424242;
+}
+
+.keypad img {
+    width: 20px;
+}
+
+#mod img {
+    width: 25px;
+}
+
+#delete img {
+    width: 25px;
+}
+
+#equal {
+    background-color: #ffb300;
+}
+#equal:hover {
+    background-color: #ffec16;
+}
+
+#dot img{
+    padding-top: 18px;
+    width: 10px;
+}
