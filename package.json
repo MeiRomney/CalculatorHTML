@@ -5,12 +5,13 @@
   "homepage": "https://MeiRomney.github.io/CalculatorHTML",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy":"gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Mei Romney",
   "license": "MIT",
   "description": "",
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "node-sass": "^9.0.0"
   }
 }
