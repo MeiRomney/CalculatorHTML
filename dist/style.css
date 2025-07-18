@@ -41,6 +41,11 @@ h1 {
     text-align: center;
     justify-content: center;
     cursor: pointer;
+    transition: transform 0.1s ease, height 0.1s ease;
+}
+
+.clicked {
+    transform: scale(0.9);
 }
 
 .keypad button:hover {

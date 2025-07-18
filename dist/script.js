@@ -45,3 +45,12 @@ numInput.addEventListener("keypress", (e) => {
         equal.onclick();
     }
 });
+
+document.querySelectorAll(".keypad button").forEach(function(button) {
+    button.addEventListener("click", function() {
+        button.classList.add("clicked");
+        setTimeout(() => {
+            button.classList.remove("clicked");
+        }, 100); // Reset after 100ms for a press effect
+    });
+});
